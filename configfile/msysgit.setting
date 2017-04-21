@@ -1,0 +1,49 @@
+msysGit的配置及中文支持
+
+假设msysGit的安装为：C:\Git
+
+1、在C:\Git\etc\git-completion.bash文件中添加：
+   alias ls='ls --show-control-chars --color=auto'
+   作用：使得在 Git Bash 中输入 ls 命令，可以正常显示中文文件名。
+
+2、修改C:\Git\etc\inputrc文件中的两项配置：
+   set output-meta on
+   set convert-meta off
+   作用：使得在 Git Bash 中可以正常输入中文，比如中文的 commit log。
+
+3、在C:\Git\etc\profile文件中添加：
+   export LESSCHARSET=utf-8
+   作用：$ git log命令不像其它vcs一样，n条log从头滚到底，它会恰当地
+   停在第一页，按space键再往后翻页。这是通过将log送给less处理实现的。
+   以上即是设置less的字符编码，使得$ git log可以正常显示中文。其实，
+   它的值不一定要设置为 utf-8，比如latin1也可以……。还有个办法是
+   $ git --no-pager log，在选项里禁止分页，则无需设置上面的选项。
+
+4、在C:\Git\etc\gitconfig文件中修改或添加如下配置：
+   [gui]
+   encoding = utf-8
+   作用：我们的代码库是统一用的 utf-8，这样设置可以在
+   git gui 中正常显示代码中的中文。
+   [i18n]
+   commitencoding = GB2312
+   作用：如果没有这一条，虽然我们在本地用$ git log看自己的中文修订
+   没问题，但，一、我们的log推到服务器后会变成乱码；二、别人在Linux
+   下推的中文log我们pull过来之后看起来也是乱码。这是因为，我们的
+   commit log会被先存放在项目的.git/COMMIT_EDITMSG文件中；在中文
+   Windows里，新建文件用的是GB2312的编码；但是Git不知道，当成默认
+   的utf-8的送出去了，所以就乱码了。有了这条之后，Git会先将其转换
+   成utf-8，再发出去，于是就没问题了。
+   [core]
+   quotepath = false
+   作用：没有这一条，$git status输出中文会显示为UNICODE编码。
+   [core]
+   editor = notepad
+  作用：修改编辑器，比如$git commit时输入log，默认是vim，按自己的喜好选择吧。
+
+5、最后一条，在C:\Git\etc\gitconfig文件中添加：
+   [alias]
+   go = “! bash -c \”git pull && git add .; if [ \\\"$*\\\" == 
+   \\\"\\\" ]; then git commit -a; else git commit -am \\\”$*\
+   \\”; fi; git push origin master:your-id;\”"
+   作用：简化日常操作，目前还不需要，也没怎么搞明白这条指令吗，
+   还是先用熟了基础指令再说。
