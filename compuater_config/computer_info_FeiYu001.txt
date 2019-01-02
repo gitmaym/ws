@@ -1,0 +1,261 @@
+﻿--------[ 鲁大师 ]--------------------------------------------------------------------------------
+
+  软件:             鲁大师 5.15.18.1145
+  时间:             2019-01-02 18:44:48
+  网站:             http://www.ludashi.com
+
+--------[ 概览 ]----------------------------------------------------------------------------------
+
+  电脑型号            X64 兼容 台式电脑
+  操作系统            Windows 7 专业版 64位 SP1 ( DirectX 11 )
+
+  处理器              英特尔 Core i7-7700 @ 3.60GHz 四核
+  主板                华硕 B250M-F PLUS ( 200 Series 芯片组 Family - A2C8 )
+  显卡                Nvidia GeForce GTX 1050 Ti ( 4 GB / 华硕 )
+  内存                16 GB ( 宇瞻 DDR4 2400MHz )
+  主硬盘               Virtual IDE Disk ( 137 GB )
+  显示器              冠捷 AOC3200 AG320FW ( 31.5 英寸  )
+  声卡                C-Media Electronics Inc. USB Audio Device
+  网卡                瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller / 华硕
+
+--------[ 主板 ]----------------------------------------------------------------------------------
+
+  主板型号            华硕 B250M-F PLUS
+  芯片组              200 Series 芯片组 Family - A2C8
+  序列号              170396739801639
+  主板版本            Rev X.0x
+  BIOS版本            American Megatrends Inc. 0304  /  BIOS程序发布日期: 11/07/2016
+  BIOS的大小          8192 KB
+  BIOS的序列号        63-0100-000001-00101111-091015-Chipset
+
+  板载设备            视频设备 (启用)
+
+--------[ 处理器 ]--------------------------------------------------------------------------------
+
+  处理器              英特尔 Core i7-7700 @ 3.60GHz 四核
+  速度                3.60 GHz (100 MHz x 36.0)
+  处理器数量          核心数: 4 / 线程数: 8
+  插槽/插座           LGA1151
+  一级数据缓存        4 x 32 KB, 8-Way, 64 byte lines
+  一级代码缓存        4 x 32 KB, 8-Way, 64 byte lines
+  二级缓存            4 x 256 KB, 4-Way, 64 byte lines
+  三级缓存            8 MB, 16-Way, 64 byte lines
+  特征                MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, HTT, EM64T, EIST, Turbo Boost
+
+--------[ 硬盘 ]----------------------------------------------------------------------------------
+
+  产品                Virtual IDE Disk
+  大小                137 GB
+  缓存                0 KB
+  硬盘已使用          共 0 次，累计 -1 小时
+  固件                20100615
+  接口                Serial ATA
+  特征                S.M.A.R.T,  48-bit LBA,  NCQ
+
+--------[ 内存 ]----------------------------------------------------------------------------------
+
+  ChannelA-DIMM1      宇瞻 DDR4 2400MHz 8GB
+  制造日期            2017 年 03月
+  型号                7F7A 78.C1GQ6.AZB0B
+  序列号              67117102
+  厂商                Apacer
+  模块位宽:           64 Bits
+  模块电压:           SSTL 1.2V
+
+  ChannelB-DIMM1      宇瞻 DDR4 2400MHz 8GB
+  制造日期            2017 年 06月
+  型号                7F7A 78.C1GMM.C7W0C
+  序列号              45060011
+  厂商                Apacer
+  模块位宽:           64 Bits
+  模块电压:           SSTL 1.2V
+
+--------[ 显卡 ]----------------------------------------------------------------------------------
+
+  主显卡              Nvidia GeForce GTX 1050 Ti
+  显存                4 GB
+  制造商              华硕
+  制造商              Nvidia
+  BIOS版本            Version86.7.39.0.bb
+  BIOS日期            01/17/17 (非显卡制造日期)
+  驱动版本            22.21.13.8253
+  驱动日期            6-7-2017
+
+--------[ 显示器 ]--------------------------------------------------------------------------------
+
+  产品                冠捷 AOC3200 AG320FW
+  厂商                冠捷
+  固件程序日期        2016 年 10月 (非显示器制造日期)
+  屏幕尺寸            31.5 英寸 (70 厘米 x 39 厘米)
+  显示比例            宽屏 16 : 9
+  分辨率              1920 x 1080 32 位真彩色
+  Gamma               2.20
+  电源管理            Active-Off
+
+--------[ 其他设备 ]------------------------------------------------------------------------------
+
+
+  网卡                瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller
+  制造商              华硕
+
+  声卡                骅讯 Electronics Inc. USB Audio Device
+
+  声卡                英特尔 High Definition Audio 控制器
+
+  声卡                Nvidia High Definition Audio 控制器
+
+  键盘                HID 标准键盘
+  鼠标                HID-compliant 鼠标
+  鼠标                HID-compliant 鼠标
+
+
+--------[ PCI设备 ]-------------------------------------------------------------------------------
+
+  设备                Xeon E3 - 1200 v6/7th Gen Intel Core Host Bridge/DRAM Registers - 591F
+  设备ID              591F
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to HOST
+  子系统制造商        ASUSTeK
+  子系统ID            86941043
+
+  设备                Xeon E3 - 1200/1500 v5/6th Gen Intel Core PCIe Controller  - 1901
+  设备ID              1901
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                USB 3.0 可扩展主机控制器 - 1.0 (Microsoft)
+  设备ID              A2AF
+  制造商              Intel
+  制造商ID            8086
+  类别                Serial / USB (UHCI)
+  子系统制造商        ASUSTeK
+  子系统ID            86941043
+
+  设备                Management Engine Interface
+  设备ID              A2BA
+  制造商              Intel
+  制造商ID            8086
+  类别                Simple Communication / Other
+  子系统制造商        ASUSTeK
+  子系统ID            86941043
+
+  设备                标准 SATA AHCI 控制器
+  设备ID              A282
+  制造商              Intel
+  制造商ID            8086
+  类别                Storage / Serial ATA (AHCI 1.0)
+  子系统制造商        ASUSTeK
+  子系统ID            86941043
+
+  设备                200 Series Chipset Family PCI Express Root Port #5 - A294
+  设备ID              A294
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                200 Series Chipset Family PCI Express Root Port #8 - A297
+  设备ID              A297
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                200 Series Chipset Family PCI Express Root Port #9 - A298
+  设备ID              A298
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                200 Series Chipset Family LPC Controller  - A2C8
+  设备ID              A2C8
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to ISA
+  子系统制造商        ASUSTeK
+  子系统ID            86941043
+
+  设备                200 Series Chipset Family PMC - A2A1
+  设备ID              A2A1
+  制造商              Intel
+  制造商ID            8086
+  类别                Memory / Other
+  子系统制造商        ASUSTeK
+  子系统ID            86941043
+
+  设备                High Definition Audio 控制器
+  设备ID              A2F0
+  制造商              Intel
+  制造商ID            8086
+  类别                Multimedia / Hi-definition Audio
+  子系统制造商        ASUSTeK
+  子系统ID            86C71043
+
+  设备                200 Series Chipset Family SMBUS - A2A3
+  设备ID              A2A3
+  制造商              Intel
+  制造商ID            8086
+  类别                Serial / SMBus Controller
+  子系统制造商        ASUSTeK
+  子系统ID            86941043
+
+  设备                GeForce GTX 1050 Ti
+  设备ID              1C82
+  制造商              Nvidia
+  制造商ID            10DE
+  类别                Display / VGA
+  子系统制造商        ASUSTeK
+  子系统ID            85C41043
+
+  设备                High Definition Audio 控制器
+  设备ID              0FB9
+  制造商              Nvidia
+  制造商ID            10DE
+  类别                Multimedia / Hi-definition Audio
+  子系统制造商        ASUSTeK
+  子系统ID            85C41043
+
+  设备                RTL8168/8111/8112 Gigabit Ethernet Controller
+  设备ID              8168
+  制造商              Realtek
+  制造商ID            10EC
+  类别                Network / Ethernet
+  子系统制造商        ASUSTeK
+  子系统ID            86771043
+
+--------[ USB设备 ]-------------------------------------------------------------------------------
+
+  制造商ID            09DA
+  产品ID              FC7C
+  类别                0 / 0 / 0
+  设备                COMPANY USB Device
+  Serial              ?
+  版本                USB 1.1
+
+  制造商ID            09DA
+  产品ID              FD88
+  类别                0 / 0 / 0
+  设备                COMPANY USB Device
+  Serial              ?
+  版本                USB 1.1
+
+  制造商ID            0D8C
+  产品ID              0014
+  类别                0 / 0 / 0
+  设备                C-Media Electronics Inc. USB Audio Device
+  Serial              ?
+  版本                USB 1.1
+
+--------[ 传感器 ]--------------------------------------------------------------------------------
+
+  名称                WINBOND NCT5567D-B
+  CPU温度             28℃
+  CPU核心             80℃
+  CPU封装             78℃
+  显卡                47℃
+  风扇                2450转
+
